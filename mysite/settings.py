@@ -103,7 +103,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 
 # Internationalization
-# https://docs.djangoproject.com/en/1.9/topics/i18n/ --> links de documentação
+# https://docs.djangoproject.com/en/1.9/topics/i18n/ --> links de documentacao
 
 LANGUAGE_CODE = 'pt-br'
 
