@@ -10,6 +10,9 @@
 <body>
     <body>
     <div class="page-header">
+        {% if user.is_authenticated %}
+            <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a> <!-- glyphicon glyphicon-plus é fornecida pelo tema do bootstrap que está usando e mostrará um sinal de mais (+) -->
+        {% endif %}
         <h1><a href="/">Django Girls Blog</a></h1>
     </div>
     <div class="content container">
